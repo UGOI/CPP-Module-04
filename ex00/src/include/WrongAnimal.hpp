@@ -1,13 +1,13 @@
 #pragma once
 #include <iostream>
 
-class Animal
+class WrongAnimal
 {
 protected:
 	std::string type;
 public:
-	Animal();
-	virtual ~Animal();
+	WrongAnimal();
+	virtual ~WrongAnimal();
 	virtual void makeSound() const;
 	std::string getType() const;
 };
