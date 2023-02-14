@@ -11,8 +11,8 @@ SRCDIR = src
 OBJDIR = obj
 LIBDIR =
 RLINEDIR = /usr/include/readline
-SRC := $(shell find $(SRCDIR) -name '*.cpp')
-# SRC := 
+# SRC := $(shell find $(SRCDIR) -name '*.cpp')
+SRC := src/Animal.cpp src/Cat.cpp src/Dog.cpp src/main.cpp src/WrongAnimal.cpp src/WrongCat.cpp
 OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
 
 # $(info VAR="$(SRC)")
