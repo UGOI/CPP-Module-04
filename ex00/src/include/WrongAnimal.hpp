@@ -8,6 +8,6 @@ protected:
 public:
 	WrongAnimal();
 	virtual ~WrongAnimal();
-	virtual void makeSound() const;
+	void makeSound() const;
 	std::string getType() const;
 };
